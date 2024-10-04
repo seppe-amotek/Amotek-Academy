@@ -3,4 +3,9 @@ const academySlider = new Swiper('.swiper.is-academy', {
   loop: true,
   sliderPerView: 4,
   },
+                                 
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
